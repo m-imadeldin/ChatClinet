@@ -6,7 +6,7 @@ namespace ChatClientApp
     internal class Program
     {
         static async Task Main(string[] args)
-        {
+        
             Console.Title = "VG Chatklient";
             Console.WriteLine("=== VG Chatklient med Socket.IO ===");
 
