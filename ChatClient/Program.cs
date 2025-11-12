@@ -7,8 +7,8 @@ namespace ChatClientApp
     {
         static async Task Main(string[] args)
         
-            Console.Title = "VG Chatklient";
-            Console.WriteLine("=== VG Chatklient med Socket.IO ===");
+            Console.Title = "Chatklient";
+            Console.WriteLine("===Chatklient med Socket.IO ===");
 
             string username = "";
             while (string.IsNullOrWhiteSpace(username))
